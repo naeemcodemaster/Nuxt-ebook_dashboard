@@ -55,7 +55,7 @@ const loading = ref(true); // Loading state
 const { data, error } = await useFetch('https://node-type-scriptebook.vercel.app/api/books', {
   // This can be a static function in your pages folder to fetch data
   initialCache: true, // Cache data on the first request
-  staleTime: 5 * 60 * 1000, 
+  staleTime: 1 * 60 * 1000, 
 });
 
 // Handle the loading state
