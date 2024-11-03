@@ -25,7 +25,11 @@
   </div>
 </template>
 
+
 <script setup>
+
+
+
 import { ref, watch } from 'vue';
 import Sidebar from '~/components/Sidebar.vue';
 import Navbar from '~/components/Navbar.vue';
@@ -46,7 +50,11 @@ watch(isSidebarVisible, (newValue) => {
     console.log("overflow else")
   }
 });
+
+
+
 </script>
+
 
 <style scoped>
 /* Additional mobile styles */
